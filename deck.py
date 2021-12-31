@@ -6,9 +6,12 @@ class Deck:
         self.cards = Deck.NORMAL_DECK*length
     def shuffle(self):
         random.shuffle(self.cards)
+        
+    def get_card(self):
+        return(self.cards.pop(0))
+
+    def show(self):
+        print(self.cards)
 
 
 
-deck = Deck(4)
-deck.shuffle()
-print(deck.cards)
