@@ -7,7 +7,7 @@ ITERATIONS = 10000
 
 
 
-def start():
+def main():
     mydeck = Deck(8)
     mydeck.shuffle()
     myplayer = Player()
@@ -53,5 +53,5 @@ def dealer_plays(dealer, deck):
 
 
 
-
-start()
+if __name__ == "__main__":
+    main()
