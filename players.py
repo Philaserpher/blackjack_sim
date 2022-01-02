@@ -1,4 +1,5 @@
-#Main algorithm, determine how the player plays, will be based off basic strategy https://www.blackjackapprenticeship.com/blackjack-strategy-charts/
+# simple class for player and dealer, will have a hand, can draw cards and empty hand
+# for now could be a single class, however will add splitting and doubling down later. Could use inheritance
 
 class Dealer:
     def __init__(self):
