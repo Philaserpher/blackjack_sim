@@ -4,20 +4,20 @@
 class Dealer:
     def __init__(self):
         self.cards = []
-    
+
     def draw(self, deck):
         self.cards.append(deck.get_card())
 
     def empty_hand(self):
         self.cards = []
+
 
 class Player:
     def __init__(self):
         self.cards = []
-    
+
     def draw(self, deck):
         self.cards.append(deck.get_card())
 
     def empty_hand(self):
         self.cards = []
-
